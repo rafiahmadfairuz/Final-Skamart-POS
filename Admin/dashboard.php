@@ -65,7 +65,7 @@ require_once "../Controllers/adminController.php";
                   </div>
                   <div class="modal-footer">
                     <button class="btn btn-success" data-bs-dismiss="modal">Batalkan</button>
-                    <a href="SemuaProses.php?delete=<?php echo  $data['kode_barang']; ?>" class="btn btn-danger">Yakin</a>
+                    <a href="../Controllers/adminController.php?delete=<?php echo  $data['kode_barang']; ?>" class="btn btn-danger">Yakin</a>
                   </div>
                 </div>
               </div>
